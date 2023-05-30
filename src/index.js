@@ -7,7 +7,7 @@ const sucursales = require ('./sucursales');
 const { listarSalas } = require('./sucursales');
 let index = {
     homePage:function(res){
-       
+    
             //Titulo
             res.write(homePage.titulo)
             res.write('\n\n')
@@ -92,13 +92,13 @@ res.end()
         res.write('Preguntas frecuentes: ' + preguntasFrecuentes.cantidad());
         res.write('\n\n');
         let faqs = preguntasFrecuentes.listarFaqs();
-       for (faq of faqs) {
+        for (faq of faqs) {
             res.write('\n');
             res.write('Pregunta: ' + faq.faq_title);
             res.write('\n');
             res.write('Resúesta: ' + faq.faq_answer);
             res.write('\n');
-           
+        
         }
         res.write('\n');
         res.end();
