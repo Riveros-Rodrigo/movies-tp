@@ -2,5 +2,5 @@
 ## Rodrigo Riveros 
 ## Carolina Dicciaca
 ## Mauro Suarez
-## Esteban Augieri
+## Esteban Augieri / edad: 30 / residencia: tristan suarez
 ## Maria Clara Zalazar
